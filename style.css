@@ -1,0 +1,202 @@
+body { 
+    margin:0px;
+    background-color:rgb(22, 21, 21);
+    font-family:'HIROMISAKE';
+    
+}
+@font-face {
+    font-family: 'HIROMISAKE' ;
+    src: url(font_family/hiro_misake/HIROMISAKE.ttf);
+}
+header { 
+    display:flex;
+    justify-content:center;
+}
+.container img { 
+    
+    width:200px;
+    height:auto;
+    padding: 10px;
+}
+header .container { 
+    
+    display:flex;
+    justify-content:space-between;
+    width: 1250px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);      
+}
+.menu { 
+    display:flex;
+}
+.menu a { 
+    text-decoration: none;
+}
+.menu div  { 
+    color:rgb(255, 255, 255);
+ 
+    font-weight: bold;
+    font-size:20px;
+    margin-left:20px;
+    background-color:rgb(39, 39, 39);
+    padding: 25px;
+    transition:all 0.8s linear;
+}
+.menu div:hover { 
+    background-color: rgb(183, 221, 255);
+    
+}
+section { 
+    display:flex;
+    justify-content:center;
+}
+.background_img { 
+    display:flex;
+    
+    width: 1250px;
+    height:784px;
+    background-image:url(img/background_img.jpg);
+}
+.balao
+ { 
+    
+    right:9px;
+    top:400px;
+    font-family:'HIROMISAKE';
+    width:300px;
+    height:200px;
+    background-color: #000;
+    border: 2px solid rgb(83, 3, 3);
+    color:azure;
+    position:relative;
+    padding-left: 10px;
+    margin-left:50px;
+    margin-top:80px;
+  
+}
+.balao2 { 
+    left: 485px;
+    top:300px;
+    font-family:'HIROMISAKE';
+    width:300px;
+    height:200px;
+    background-color: #000;
+    border: 2px solid rgb(83, 3, 3);
+    color:azure;
+    position:relative;
+    padding-left: 10px;
+    margin-left:50px;
+    margin-top:80px;
+    
+
+}
+.balao3 {
+    right:700px;
+    top:60px;
+    font-family:'HIROMISAKE';
+    width:300px;
+    height:200px;
+    background-color: #000;
+    border: 2px solid rgb(83, 3, 3);
+    color:azure;
+    position:relative;
+    padding-left: 10px;
+    margin-left:50px;
+    margin-top:80px;
+}
+.title img{ 
+    width: 190px;
+    height:auto;
+}
+
+
+
+
+
+
+
+
+ .leyaut { 
+    display:flex;
+    width:auto;
+    justify-content: space-between;
+   
+
+}
+
+.img_text img { 
+    display: flex;
+    flex:1;
+    padding-bottom:20px;
+    right:950px;
+    width: 300px;
+    height: auto;
+    transition:all 0.5s linear;
+    position:absolute;
+   
+}
+.text_img { 
+    display:flex;
+    flex:1;
+    margin-top:100px;
+    width:500px;
+    height:260px;
+    padding-bottom: 50px;
+    color:aliceblue;
+    
+   
+    
+}
+.text_img:hover { 
+    
+    text-shadow: 0px 3px 3px rgb(53, 54, 155) ;
+    
+}
+
+.img_text img:hover { 
+    width:310px;
+    height:auto;
+}
+
+
+
+
+
+.criat{ 
+    background-color:aliceblue;
+    width:auto;
+    height:150px;
+}
+
+.sasaki { 
+    display:flex;
+    background: linear-gradient(aliceblue, rgb(65, 63, 63));
+    width:100%;
+    height:700px;
+}
+.sasa { 
+    width: 300px;
+    height:auto;
+}
+.text_sasa { 
+    margin:70px;
+    font-size:20px;
+    padding-top: 110px;
+    width:695px;
+    height:auto;
+    
+    color:rgb(7, 6, 6);
+
+}
+
+footer { 
+    width:100%; 
+    height: 300px;
+    background: linear-gradient( rgb(65, 63, 63), #000);
+}
+footer img { 
+    
+    width: 400px;
+    height: auto;
+}
+
